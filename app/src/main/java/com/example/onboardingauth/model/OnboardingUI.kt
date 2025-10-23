@@ -1,8 +1,6 @@
 package com.example.onboardingauth.model
 
-import android.icu.text.CaseMap.Title
 import androidx.annotation.DrawableRes
-import androidx.compose.ui.res.painterResource
 import com.example.onboardingauth.R
 
 class OnboardingUI(
