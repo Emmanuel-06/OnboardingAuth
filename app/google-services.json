@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971295250891",
+    "project_id": "onboardin-auth",
+    "storage_bucket": "onboardin-auth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971295250891:android:6f2f2c409bc15754cb3e4e",
+        "android_client_info": {
+          "package_name": "com.example.onboardingauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgdorjB9_7Qedh6gfobAFBcBMhyuppyUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

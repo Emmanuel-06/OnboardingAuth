@@ -10,4 +10,9 @@
 
     <!--custom colors-->
     <color name = "background">#FFE787</color>
+    <color name ="grey100">#E9EAEC</color>
+    <color name ="grey300">#FF7D7D91</color>
+    <color name ="black600">#FF1A1C1E</color>
+    <color name ="primaryColor">#FF400A24</color>
+    <color name ="secondaryColor">#FFE26C38</color>
 </resources>

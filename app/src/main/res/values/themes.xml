@@ -3,7 +3,7 @@
 
     <style name="Theme.OnboardingAuth" parent="android:Theme.Material.Light.NoActionBar" />
 
-    <style name ="SplashTheme" parent = "Theme.SplashScreen">
+    <style name ="Theme.MySplashTheme" parent = "Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/background</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/splashscreen</item>
         <item name="windowSplashScreenAnimationDuration">1000</item>

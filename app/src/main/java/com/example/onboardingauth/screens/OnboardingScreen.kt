@@ -5,7 +5,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.pager.HorizontalPager
@@ -21,7 +20,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.onboardingauth.model.dataSource
-import com.example.onboardingauth.utils.ButtonUI
+import com.example.onboardingauth.utils.ButtonUISmall
 import com.example.onboardingauth.utils.Indicator
 import com.example.onboardingauth.utils.OnboardingScreenItem
 import kotlinx.coroutines.launch
@@ -30,7 +29,8 @@ import kotlinx.coroutines.launch
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun OnboardingScreen(
-    onFinished: () -> Unit = {}
+    onFinished: () -> Unit = {
+    }
 ) {
     val pagerState = rememberPagerState(initialPage = 0) {
         dataSource.size
@@ -66,7 +66,7 @@ fun OnboardingScreen(
                         .weight(1f)
                 ) {
                     if(buttonState.value[0].isNotEmpty()){
-                        ButtonUI(
+                        ButtonUISmall(
                             text = buttonState.value[0],
                             backgroundColor = Color.Transparent,
                             textColor = Color(0xFF131313)
@@ -93,9 +93,9 @@ fun OnboardingScreen(
                     modifier = Modifier
                         .weight(1f)
                 ) {
-                    ButtonUI(
+                    ButtonUISmall(
                         text = buttonState.value[1],
-                        backgroundColor = Color(0xFF8A8811),
+                        backgroundColor = Color(0xFFE26C38 ),
                         textColor = Color(0xFFFFFFFF)
                     )
                     {
